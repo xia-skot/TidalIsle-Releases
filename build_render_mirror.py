@@ -9,7 +9,7 @@ import subprocess
 
 
 RELEASES = "https://github.com/xia-skot/TidalIsle-Releases/releases"
-ARCHIVE = ("1.2.2.3", "1.2.2.4", "1.2.2.5")
+ARCHIVE = ("1.2.2.3", "1.2.2.4", "1.2.2.5", "1.2.3.1")
 SITE = os.environ["RENDER_EXTERNAL_URL"].rstrip("/")
 PUBLIC = Path("public")
 CURL = ["curl", "--fail", "--silent", "--show-error", "--location",
